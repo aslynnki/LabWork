@@ -2,6 +2,7 @@ import subprocess
 from subprocess import Popen, PIPE
 import pandas as pd
 import os
+# made by Ashley Kiemen
 
 #Nomenclature
 smiles = "[O-]S(=O)(=O)C(C(=O)OCC(CC)CCCC)C(C(=O)OCC(CC)CCCC"
