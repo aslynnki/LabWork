@@ -1,0 +1,70 @@
+[ AOT ]
+[ atoms ]
+;AtmName  AtmType  Charge  Count
+ A1       OM      0.00     0
+ A2        S      0.00     1
+ A3       OM      0.00     2
+ A4       OM      0.00     3
+ A5      CH2      0.00     4
+ A6        C      0.00     5
+ A7        O      0.00     6
+ A8       OM      0.00     7
+ A9      CH2      0.00     8
+A10      CH2      0.00    9
+A11      CH2      0.00    10
+A12      CH2      0.00    11
+A13      CH2      0.00    12
+A14      CH2      0.00    13
+A15      CH2      0.00    14
+A16      CH2      0.00    15
+A17      CH2      0.00    16
+A18        C      0.00    17
+A19        O      0.00    18
+A20       OM      0.00    19
+A21      CH2      0.00    20
+A22      CH2      0.00    21
+A23      CH2      0.00    22
+A24      CH2      0.00    23
+A25      CH2      0.00    24
+A26      CH2      0.00    25
+A27      CH2      0.00    26
+A28      CH3      0.00    27
+
+[ bonds ]
+;AtmName AtmName
+A1       A2
+A2       A5
+A2       A4
+A2       A3
+A5       A17
+A5       A6
+A6       A8
+A6       A7
+A8       A9
+A9       A10
+A10      A13
+A10      A11
+A11      A12
+A13      A14
+A14      A15
+A15      A16
+A17      A18
+A18      A20
+A18      A19
+A20      A21
+A21      A22
+A22      A25
+A22      A23
+A23      A24
+A25      A26
+A26      A27
+A27      A28
+
+
+[ impropers ]
+;AtmName AtmName AtmName AtmName
+A5       A2       A17      A6 
+A6       A5       A8       A7 
+A10      A9       A13      A11
+A18      A17      A20      A19
+A22      A21      A25      A23
