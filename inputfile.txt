@@ -1,0 +1,24 @@
+top                 = c12e8.top
+pdb                 = c12e8.pdb
+resname             = CE8
+N                   = 60
+dt                  = 0.002
+
+surf_sel_str        = resname CE8
+head_sel_str        = name C36 or name O37 or name H38
+tail_sel_str        = name C1 or name C2 or name C3
+pull_head_sel_str   = name C36 or name O37 or name H38
+pull_tail_sel_str   = name C1 or name C2 or name C3
+
+stretch_k           = 6000
+stretch_rate        = 0.001
+stretch_target      = 58.89
+
+expand_tol          = 10
+contract_tol        = 1000
+
+solvent_motif       = spc216.gro
+boxpad              = 10
+surf_solv_min_dist  = 5
+restr_relax_ratio   = 0.2
+restr_relax_time    = 10
