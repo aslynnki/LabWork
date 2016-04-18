@@ -1,0 +1,35 @@
+#define  mb_cc      0.480  1250.00
+#define  ma_ccc     180.0  35.0
+
+#define  mb_co      0.390  3000.00
+#define  ma_cco     180.0  20.0
+#define  ma_coo     180.0  20.0
+
+#define  mb_oo      0.330  16000.0
+#define  ma_ooo     150.0  80.0
+#define  di_re      0.0 0.0 0.60 60
+
+; C4E0
+; 0x50 = 2*4+1*0
+
+[ moleculetype ]
+; molname  nrexcl
+  50    1
+
+[ atoms ]
+; i type resnr residue atom cgnr charge
+  1 C1   1     50      C1   1    0.00000
+  2 C1   1     50      C2   2    0.00000
+  3 C1   1     50      C3   3    0.00000
+  4 C1   1     50      C4   4    0.00000
+
+[ bonds ]
+; i  j  funct  alias
+  1  2  1      mb_cc
+  2  3  1      mb_cc
+  3  4  1      mb_cc
+
+[ angles ]
+; i  j  k  funct  alias
+  1  2  3  2      ma_ccc
+  2  3  4  2      ma_ccc
