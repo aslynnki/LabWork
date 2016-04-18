@@ -1,0 +1,33 @@
+[ defaults ]
+; no C6/C12! interaction between written as sigma/epsilon
+; nbfunct  comb-rule
+  1        2
+
+[ atomtypes ]
+   EO  45.0  0.000  A  0.0  0.0 ; EO
+   C1  72.0  0.000  A  0.0  0.0 ; Dry Martini
+   SO  72.0  0.000  A  0.0  0.0 ; SO4
+   OH  45.0  0.000  A  0.0  0.0 ; OH
+; special C1/C2 particles for amino-acids
+
+; interactions levels
+#define  m_EOEO     0.43  0.200 ; EO-EO Interaction
+#define  m_C1C1     0.47  4.500 ; C1-C1 Interaction
+#define  m_SOSO     0.60  2.300 ; SO-SO Interaction
+
+#define  m_EOC1     0.47  1.900 ; EO-C1 Interaction
+#define  m_EOSO     0.47  1.500 ; EO-SO Interaction
+#define  m_C1SO     0.62  2.000 ; C1-SO Interaction
+
+[ nonbond_params ]
+; self interactions
+   EO  EO    1  m_EOEO 
+   C1  C1    1  m_C1C1 
+   SO  SO    1  m_SOSO 
+
+; cross interactions
+   EO  C1    1  m_EOC1
+   EO  SO    1  m_EOSO
+   C1  SO    1  m_C1SO
+
+;;; Jaakko & Clement

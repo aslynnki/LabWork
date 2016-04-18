@@ -1,0 +1,41 @@
+#define  mb_cc     0.480  1250.0 ; bond between two regular particles (MODIFIED from MARTINI v2.0 [previous: 0.470 1250.0])
+#define  ma_ccc 180.000    35.0 ; simple bond in linear molecule (MODIFIED from MARTINI v2.0 [previous: 180.0 25.0])
+
+; C36 
+
+[ moleculetype ]
+; molname  nrexcl
+  C36      1
+
+[ atoms ]
+; i type resnr residue atom cgnr charge
+  1 C1   1     C36    C1    1    0.0
+  2 C1   1     C36    C2    2    0.0
+  3 C1   1     C36    C3    3    0.0
+  4 C1   1     C36    C4    4    0.0
+  5 C1   1     C36    C5    5    0.0
+  6 C1   1     C36    C6    6    0.0
+  7 C1   1     C36    C7    7    0.0
+  8 C1   1     C36    C8    8    0.0
+  9 C1   1     C36    C9    9    0.0
+
+[ bonds ]
+; i  j  funct  alias
+  1  2  1      mb_cc
+  2  3  1      mb_cc
+  3  4  1      mb_cc
+  4  5  1      mb_cc
+  5  6  1      mb_cc
+  6  7  1      mb_cc
+  7  8  1      mb_cc
+  8  9  1      mb_cc
+
+[ angles ]
+; i  j  k  funct  alias
+  1  2  3  2      ma_ccc
+  2  3  4  2      ma_ccc
+  3  4  5  2      ma_ccc
+  4  5  6  2      ma_ccc
+  5  6  7  2      ma_ccc
+  6  7  8  2      ma_ccc
+  7  8  9  2      ma_ccc

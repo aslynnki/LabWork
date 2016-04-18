@@ -1,0 +1,11 @@
+#include "ff.itp"
+#include "cnem.itp"
+#include "c36.itp"
+
+
+[ system ]
+EUR in Solutions
+
+[ molecules ]
+EUR     10 
+C36		800

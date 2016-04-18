@@ -1,0 +1,751 @@
+#define  mb_cc      0.480  1250.00
+#define  ma_ccc     180.0  35.0 
+
+#define  mb_co      0.390  3000.00
+#define  ma_cco     180.0  20.0 
+#define  ma_coo     180.0  20.0 
+
+#define  mb_oo      0.330  16000.0
+#define  ma_ooo     150.0  80.0 
+#define  di_re      0.0 0.0 0.60 60
+
+[moleculetype]
+;name   exclusions
+EUR       1
+[atoms]
+  1   C1  1   EUR     C1    1   0.000
+  2   C1  1   EUR     C1    2   0.000
+  3   C1  1   EUR     C1    3   0.000
+  4   EO  1   EUR     O1    4   0.000
+  5   EO  1   EUR     O1    5   0.000
+  6   EO  1   EUR     O1    6   0.000
+  7   EO  1   EUR     O1    7   0.000
+  8   EO  1   EUR     O1    8   0.000
+  9   EO  1   EUR     O1    9   0.000
+ 10   EO  1   EUR     O1   10   0.000
+ 11   EO  1   EUR     O1   11   0.000
+ 12   EO  1   EUR     O1   12   0.000
+ 13   EO  1   EUR     O1   13   0.000
+ 14   EO  1   EUR     O1   14   0.000
+ 15   EO  1   EUR     O1   15   0.000
+ 16   EO  1   EUR     O1   16   0.000
+ 17   EO  1   EUR     O1   17   0.000
+ 18   EO  1   EUR     O1   18   0.000
+ 19   EO  1   EUR     O1   19   0.000
+ 20   EO  1   EUR     O1   20   0.000
+ 21   EO  1   EUR     O1   21   0.000
+ 22   EO  1   EUR     O1   22   0.000
+ 23   EO  1   EUR     O1   23   0.000
+ 24   EO  1   EUR     O1   24   0.000
+ 25   EO  1   EUR     O1   25   0.000
+ 26   EO  1   EUR     O1   26   0.000
+ 27   EO  1   EUR     O1   27   0.000
+ 28   EO  1   EUR     O1   28   0.000
+ 29   EO  1   EUR     O1   29   0.000
+ 30   EO  1   EUR     O1   30   0.000
+ 31   EO  1   EUR     O1   31   0.000
+ 32   EO  1   EUR     O1   32   0.000
+ 33   EO  1   EUR     O1   33   0.000
+ 34   EO  1   EUR     O1   34   0.000
+ 35   EO  1   EUR     O1   35   0.000
+ 36   EO  1   EUR     O1   36   0.000
+ 37   EO  1   EUR     O1   37   0.000
+ 38   EO  1   EUR     O1   38   0.000
+ 39   EO  1   EUR     O1   39   0.000
+ 40   EO  1   EUR     O1   40   0.000
+ 41   EO  1   EUR     O1   41   0.000
+ 42   EO  1   EUR     O1   42   0.000
+ 43   EO  1   EUR     O1   43   0.000
+ 44   EO  1   EUR     O1   44   0.000
+ 45   EO  1   EUR     O1   45   0.000
+ 46   EO  1   EUR     O1   46   0.000
+ 47   EO  1   EUR     O1   47   0.000
+ 48   EO  1   EUR     O1   48   0.000
+ 49   EO  1   EUR     O1   49   0.000
+ 50   EO  1   EUR     O1   50   0.000
+ 51   EO  1   EUR     O1   51   0.000
+ 52   EO  1   EUR     O1   52   0.000
+ 53   EO  1   EUR     O1   53   0.000
+ 54   EO  1   EUR     O1   54   0.000
+ 55   EO  1   EUR     O1   55   0.000
+ 56   EO  1   EUR     O1   56   0.000
+ 57   EO  1   EUR     O1   57   0.000
+ 58   EO  1   EUR     O1   58   0.000
+ 59   EO  1   EUR     O1   59   0.000
+ 60   EO  1   EUR     O1   60   0.000
+ 61   EO  1   EUR     O1   61   0.000
+ 62   EO  1   EUR     O1   62   0.000
+ 63   EO  1   EUR     O1   63   0.000
+ 64   EO  1   EUR     O1   64   0.000
+ 65   EO  1   EUR     O1   65   0.000
+ 66   EO  1   EUR     O1   66   0.000
+ 67   EO  1   EUR     O1   67   0.000
+ 68   EO  1   EUR     O1   68   0.000
+ 69   EO  1   EUR     O1   69   0.000
+ 70   EO  1   EUR     O1   70   0.000
+ 71   EO  1   EUR     O1   71   0.000
+ 72   EO  1   EUR     O1   72   0.000
+ 73   EO  1   EUR     O1   73   0.000
+ 74   EO  1   EUR     O1   74   0.000
+ 75   EO  1   EUR     O1   75   0.000
+ 76   EO  1   EUR     O1   76   0.000
+ 77   EO  1   EUR     O1   77   0.000
+ 78   EO  1   EUR     O1   78   0.000
+ 79   EO  1   EUR     O1   79   0.000
+ 80   EO  1   EUR     O1   80   0.000
+ 81   EO  1   EUR     O1   81   0.000
+ 82   EO  1   EUR     O1   82   0.000
+ 83   EO  1   EUR     O1   83   0.000
+ 84   EO  1   EUR     O1   84   0.000
+ 85   EO  1   EUR     O1   85   0.000
+ 86   EO  1   EUR     O1   86   0.000
+ 87   EO  1   EUR     O1   87   0.000
+ 88   EO  1   EUR     O1   88   0.000
+ 89   EO  1   EUR     O1   89   0.000
+ 90   EO  1   EUR     O1   90   0.000
+ 91   EO  1   EUR     O1   91   0.000
+ 92   EO  1   EUR     O1   92   0.000
+ 93   EO  1   EUR     O1   93   0.000
+ 94   EO  1   EUR     O1   94   0.000
+ 95   EO  1   EUR     O1   95   0.000
+ 96   EO  1   EUR     O1   96   0.000
+ 97   EO  1   EUR     O1   97   0.000
+ 98   EO  1   EUR     O1   98   0.000
+ 99   EO  1   EUR     O1   99   0.000
+100   EO  1   EUR     O1  100   0.000
+101   EO  1   EUR     O1  101   0.000
+102   EO  1   EUR     O1  102   0.000
+103   EO  1   EUR     O1  103   0.000
+104   EO  1   EUR     O1  104   0.000
+105   EO  1   EUR     O1  105   0.000
+106   EO  1   EUR     O1  106   0.000
+107   EO  1   EUR     O1  107   0.000
+108   EO  1   EUR     O1  108   0.000
+109   EO  1   EUR     O1  109   0.000
+110   EO  1   EUR     O1  110   0.000
+111   EO  1   EUR     O1  111   0.000
+112   EO  1   EUR     O1  112   0.000
+113   EO  1   EUR     O1  113   0.000
+114   EO  1   EUR     O1  114   0.000
+115   EO  1   EUR     O1  115   0.000
+116   EO  1   EUR     O1  116   0.000
+117   EO  1   EUR     O1  117   0.000
+118   EO  1   EUR     O1  118   0.000
+119   EO  1   EUR     O1  119   0.000
+120   EO  1   EUR     O1  120   0.000
+121   EO  1   EUR     O1  121   0.000
+122   EO  1   EUR     O1  122   0.000
+123   EO  1   EUR     O1  123   0.000
+124   EO  1   EUR     O1  124   0.000
+125   EO  1   EUR     O1  125   0.000
+126   EO  1   EUR     O1  126   0.000
+127   EO  1   EUR     O1  127   0.000
+128   EO  1   EUR     O1  128   0.000
+129   EO  1   EUR     O1  129   0.000
+130   EO  1   EUR     O1  130   0.000
+131   EO  1   EUR     O1  131   0.000
+132   EO  1   EUR     O1  132   0.000
+133   EO  1   EUR     O1  133   0.000
+134   EO  1   EUR     O1  134   0.000
+135   EO  1   EUR     O1  135   0.000
+136   EO  1   EUR     O1  136   0.000
+137   EO  1   EUR     O1  137   0.000
+138   EO  1   EUR     O1  138   0.000
+139   EO  1   EUR     O1  139   0.000
+140   EO  1   EUR     O1  140   0.000
+141   EO  1   EUR     O1  141   0.000
+142   EO  1   EUR     O1  142   0.000
+143   EO  1   EUR     O1  143   0.000
+144   EO  1   EUR     O1  144   0.000
+145   EO  1   EUR     O1  145   0.000
+146   EO  1   EUR     O1  146   0.000
+147   EO  1   EUR     O1  147   0.000
+148   EO  1   EUR     O1  148   0.000
+149   EO  1   EUR     O1  149   0.000
+150   EO  1   EUR     O1  150   0.000
+151   EO  1   EUR     O1  151   0.000
+152   EO  1   EUR     O1  152   0.000
+153   EO  1   EUR     O1  153   0.000
+154   EO  1   EUR     O1  154   0.000
+155   EO  1   EUR     O1  155   0.000
+156   EO  1   EUR     O1  156   0.000
+157   EO  1   EUR     O1  157   0.000
+158   EO  1   EUR     O1  158   0.000
+159   EO  1   EUR     O1  159   0.000
+160   EO  1   EUR     O1  160   0.000
+161   EO  1   EUR     O1  161   0.000
+162   EO  1   EUR     O1  162   0.000
+163   EO  1   EUR     O1  163   0.000
+164   EO  1   EUR     O1  164   0.000
+165   EO  1   EUR     O1  165   0.000
+166   EO  1   EUR     O1  166   0.000
+167   EO  1   EUR     O1  167   0.000
+168   EO  1   EUR     O1  168   0.000
+169   EO  1   EUR     O1  169   0.000
+170   EO  1   EUR     O1  170   0.000
+171   EO  1   EUR     O1  171   0.000
+172   EO  1   EUR     O1  172   0.000
+173   EO  1   EUR     O1  173   0.000
+174   EO  1   EUR     O1  174   0.000
+175   EO  1   EUR     O1  175   0.000
+176   EO  1   EUR     O1  176   0.000
+177   EO  1   EUR     O1  177   0.000
+178   EO  1   EUR     O1  178   0.000
+179   EO  1   EUR     O1  179   0.000
+180   EO  1   EUR     O1  180   0.000
+181   EO  1   EUR     O1  181   0.000
+182   EO  1   EUR     O1  182   0.000
+183   EO  1   EUR     O1  183   0.000
+184   C1  1   EUR     C1  184   0.000
+185   C1  1   EUR     C1  185   0.000
+186   C1  1   EUR     C1  186   0.000
+
+[bonds]
+  1     2   1   mb_cc
+  2     3   1   mb_cc
+  3     4   1   mb_co
+  4     5   1   mb_oo
+  5     6   1   mb_oo
+  6     7   1   mb_oo
+  7     8   1   mb_oo
+  8     9   1   mb_oo
+  9    10   1   mb_oo
+ 10    11   1   mb_oo
+ 11    12   1   mb_oo
+ 12    13   1   mb_oo
+ 13    14   1   mb_oo
+ 14    15   1   mb_oo
+ 15    16   1   mb_oo
+ 16    17   1   mb_oo
+ 17    18   1   mb_oo
+ 18    19   1   mb_oo
+ 19    20   1   mb_oo
+ 20    21   1   mb_oo
+ 21    22   1   mb_oo
+ 22    23   1   mb_oo
+ 23    24   1   mb_oo
+ 24    25   1   mb_oo
+ 25    26   1   mb_oo
+ 26    27   1   mb_oo
+ 27    28   1   mb_oo
+ 28    29   1   mb_oo
+ 29    30   1   mb_oo
+ 30    31   1   mb_oo
+ 31    32   1   mb_oo
+ 32    33   1   mb_oo
+ 33    34   1   mb_oo
+ 34    35   1   mb_oo
+ 35    36   1   mb_oo
+ 36    37   1   mb_oo
+ 37    38   1   mb_oo
+ 38    39   1   mb_oo
+ 39    40   1   mb_oo
+ 40    41   1   mb_oo
+ 41    42   1   mb_oo
+ 42    43   1   mb_oo
+ 43    44   1   mb_oo
+ 44    45   1   mb_oo
+ 45    46   1   mb_oo
+ 46    47   1   mb_oo
+ 47    48   1   mb_oo
+ 48    49   1   mb_oo
+ 49    50   1   mb_oo
+ 50    51   1   mb_oo
+ 51    52   1   mb_oo
+ 52    53   1   mb_oo
+ 53    54   1   mb_oo
+ 54    55   1   mb_oo
+ 55    56   1   mb_oo
+ 56    57   1   mb_oo
+ 57    58   1   mb_oo
+ 58    59   1   mb_oo
+ 59    60   1   mb_oo
+ 60    61   1   mb_oo
+ 61    62   1   mb_oo
+ 62    63   1   mb_oo
+ 63    64   1   mb_oo
+ 64    65   1   mb_oo
+ 65    66   1   mb_oo
+ 66    67   1   mb_oo
+ 67    68   1   mb_oo
+ 68    69   1   mb_oo
+ 69    70   1   mb_oo
+ 70    71   1   mb_oo
+ 71    72   1   mb_oo
+ 72    73   1   mb_oo
+ 73    74   1   mb_oo
+ 74    75   1   mb_oo
+ 75    76   1   mb_oo
+ 76    77   1   mb_oo
+ 77    78   1   mb_oo
+ 78    79   1   mb_oo
+ 79    80   1   mb_oo
+ 80    81   1   mb_oo
+ 81    82   1   mb_oo
+ 82    83   1   mb_oo
+ 83    84   1   mb_oo
+ 84    85   1   mb_oo
+ 85    86   1   mb_oo
+ 86    87   1   mb_oo
+ 87    88   1   mb_oo
+ 88    89   1   mb_oo
+ 89    90   1   mb_oo
+ 90    91   1   mb_oo
+ 91    92   1   mb_oo
+ 92    93   1   mb_oo
+ 93    94   1   mb_oo
+ 94    95   1   mb_oo
+ 95    96   1   mb_oo
+ 96    97   1   mb_oo
+ 97    98   1   mb_oo
+ 98    99   1   mb_oo
+ 99   100   1   mb_oo
+100   101   1   mb_oo
+101   102   1   mb_oo
+102   103   1   mb_oo
+103   104   1   mb_oo
+104   105   1   mb_oo
+105   106   1   mb_oo
+106   107   1   mb_oo
+107   108   1   mb_oo
+108   109   1   mb_oo
+109   110   1   mb_oo
+110   111   1   mb_oo
+111   112   1   mb_oo
+112   113   1   mb_oo
+113   114   1   mb_oo
+114   115   1   mb_oo
+115   116   1   mb_oo
+116   117   1   mb_oo
+117   118   1   mb_oo
+118   119   1   mb_oo
+119   120   1   mb_oo
+120   121   1   mb_oo
+121   122   1   mb_oo
+122   123   1   mb_oo
+123   124   1   mb_oo
+124   125   1   mb_oo
+125   126   1   mb_oo
+126   127   1   mb_oo
+127   128   1   mb_oo
+128   129   1   mb_oo
+129   130   1   mb_oo
+130   131   1   mb_oo
+131   132   1   mb_oo
+132   133   1   mb_oo
+133   134   1   mb_oo
+134   135   1   mb_oo
+135   136   1   mb_oo
+136   137   1   mb_oo
+137   138   1   mb_oo
+138   139   1   mb_oo
+139   140   1   mb_oo
+140   141   1   mb_oo
+141   142   1   mb_oo
+142   143   1   mb_oo
+143   144   1   mb_oo
+144   145   1   mb_oo
+145   146   1   mb_oo
+146   147   1   mb_oo
+147   148   1   mb_oo
+148   149   1   mb_oo
+149   150   1   mb_oo
+150   151   1   mb_oo
+151   152   1   mb_oo
+152   153   1   mb_oo
+153   154   1   mb_oo
+154   155   1   mb_oo
+155   156   1   mb_oo
+156   157   1   mb_oo
+157   158   1   mb_oo
+158   159   1   mb_oo
+159   160   1   mb_oo
+160   161   1   mb_oo
+161   162   1   mb_oo
+162   163   1   mb_oo
+163   164   1   mb_oo
+164   165   1   mb_oo
+165   166   1   mb_oo
+166   167   1   mb_oo
+167   168   1   mb_oo
+168   169   1   mb_oo
+169   170   1   mb_oo
+170   171   1   mb_oo
+171   172   1   mb_oo
+172   173   1   mb_oo
+173   174   1   mb_oo
+174   175   1   mb_oo
+175   176   1   mb_oo
+176   177   1   mb_oo
+177   178   1   mb_oo
+178   179   1   mb_oo
+179   180   1   mb_oo
+180   181   1   mb_oo
+181   182   1   mb_oo
+182   183   1   mb_oo
+183   184   1   mb_co
+184   185   1   mb_cc
+185   186   1   mb_cc
+  4    7     10    di_re
+  5    8     10    di_re
+  6    9     10    di_re
+  7   10     10    di_re
+  8   11     10    di_re
+  9   12     10    di_re
+ 10   13     10    di_re
+ 11   14     10    di_re
+ 12   15     10    di_re
+ 13   16     10    di_re
+ 14   17     10    di_re
+ 15   18     10    di_re
+ 16   19     10    di_re
+ 17   20     10    di_re
+ 18   21     10    di_re
+ 19   22     10    di_re
+ 20   23     10    di_re
+ 21   24     10    di_re
+ 22   25     10    di_re
+ 23   26     10    di_re
+ 24   27     10    di_re
+ 25   28     10    di_re
+ 26   29     10    di_re
+ 27   30     10    di_re
+ 28   31     10    di_re
+ 29   32     10    di_re
+ 30   33     10    di_re
+ 31   34     10    di_re
+ 32   35     10    di_re
+ 33   36     10    di_re
+ 34   37     10    di_re
+ 35   38     10    di_re
+ 36   39     10    di_re
+ 37   40     10    di_re
+ 38   41     10    di_re
+ 39   42     10    di_re
+ 40   43     10    di_re
+ 41   44     10    di_re
+ 42   45     10    di_re
+ 43   46     10    di_re
+ 44   47     10    di_re
+ 45   48     10    di_re
+ 46   49     10    di_re
+ 47   50     10    di_re
+ 48   51     10    di_re
+ 49   52     10    di_re
+ 50   53     10    di_re
+ 51   54     10    di_re
+ 52   55     10    di_re
+ 53   56     10    di_re
+ 54   57     10    di_re
+ 55   58     10    di_re
+ 56   59     10    di_re
+ 57   60     10    di_re
+ 58   61     10    di_re
+ 59   62     10    di_re
+ 60   63     10    di_re
+ 61   64     10    di_re
+ 62   65     10    di_re
+ 63   66     10    di_re
+ 64   67     10    di_re
+ 65   68     10    di_re
+ 66   69     10    di_re
+ 67   70     10    di_re
+ 68   71     10    di_re
+ 69   72     10    di_re
+ 70   73     10    di_re
+ 71   74     10    di_re
+ 72   75     10    di_re
+ 73   76     10    di_re
+ 74   77     10    di_re
+ 75   78     10    di_re
+ 76   79     10    di_re
+ 77   80     10    di_re
+ 78   81     10    di_re
+ 79   82     10    di_re
+ 80   83     10    di_re
+ 81   84     10    di_re
+ 82   85     10    di_re
+ 83   86     10    di_re
+ 84   87     10    di_re
+ 85   88     10    di_re
+ 86   89     10    di_re
+ 87   90     10    di_re
+ 88   91     10    di_re
+ 89   92     10    di_re
+ 90   93     10    di_re
+ 91   94     10    di_re
+ 92   95     10    di_re
+ 93   96     10    di_re
+ 94   97     10    di_re
+ 95   98     10    di_re
+ 96   99     10    di_re
+ 97  100     10    di_re
+ 98  101     10    di_re
+ 99  102     10    di_re
+100  103     10    di_re
+101  104     10    di_re
+102  105     10    di_re
+103  106     10    di_re
+104  107     10    di_re
+105  108     10    di_re
+106  109     10    di_re
+107  110     10    di_re
+108  111     10    di_re
+109  112     10    di_re
+110  113     10    di_re
+111  114     10    di_re
+112  115     10    di_re
+113  116     10    di_re
+114  117     10    di_re
+115  118     10    di_re
+116  119     10    di_re
+117  120     10    di_re
+118  121     10    di_re
+119  122     10    di_re
+120  123     10    di_re
+121  124     10    di_re
+122  125     10    di_re
+123  126     10    di_re
+124  127     10    di_re
+125  128     10    di_re
+126  129     10    di_re
+127  130     10    di_re
+128  131     10    di_re
+129  132     10    di_re
+130  133     10    di_re
+131  134     10    di_re
+132  135     10    di_re
+133  136     10    di_re
+134  137     10    di_re
+135  138     10    di_re
+136  139     10    di_re
+137  140     10    di_re
+138  141     10    di_re
+139  142     10    di_re
+140  143     10    di_re
+141  144     10    di_re
+142  145     10    di_re
+143  146     10    di_re
+144  147     10    di_re
+145  148     10    di_re
+146  149     10    di_re
+147  150     10    di_re
+148  151     10    di_re
+149  152     10    di_re
+150  153     10    di_re
+151  154     10    di_re
+152  155     10    di_re
+153  156     10    di_re
+154  157     10    di_re
+155  158     10    di_re
+156  159     10    di_re
+157  160     10    di_re
+158  161     10    di_re
+159  162     10    di_re
+160  163     10    di_re
+161  164     10    di_re
+162  165     10    di_re
+163  166     10    di_re
+164  167     10    di_re
+165  168     10    di_re
+166  169     10    di_re
+167  170     10    di_re
+168  171     10    di_re
+169  172     10    di_re
+170  173     10    di_re
+171  174     10    di_re
+172  175     10    di_re
+173  176     10    di_re
+174  177     10    di_re
+175  178     10    di_re
+176  179     10    di_re
+177  180     10    di_re
+178  181     10    di_re
+179  182     10    di_re
+180  183     10    di_re
+
+[angles]
+  1     2     3   2   ma_ccc
+  2     3     4   2   ma_cco
+  3     4     5   2   ma_coo
+  4     5     6   2   ma_ooo
+  5     6     7   2   ma_ooo
+  6     7     8   2   ma_ooo
+  7     8     9   2   ma_ooo
+  8     9    10   2   ma_ooo
+  9    10    11   2   ma_ooo
+ 10    11    12   2   ma_ooo
+ 11    12    13   2   ma_ooo
+ 12    13    14   2   ma_ooo
+ 13    14    15   2   ma_ooo
+ 14    15    16   2   ma_ooo
+ 15    16    17   2   ma_ooo
+ 16    17    18   2   ma_ooo
+ 17    18    19   2   ma_ooo
+ 18    19    20   2   ma_ooo
+ 19    20    21   2   ma_ooo
+ 20    21    22   2   ma_ooo
+ 21    22    23   2   ma_ooo
+ 22    23    24   2   ma_ooo
+ 23    24    25   2   ma_ooo
+ 24    25    26   2   ma_ooo
+ 25    26    27   2   ma_ooo
+ 26    27    28   2   ma_ooo
+ 27    28    29   2   ma_ooo
+ 28    29    30   2   ma_ooo
+ 29    30    31   2   ma_ooo
+ 30    31    32   2   ma_ooo
+ 31    32    33   2   ma_ooo
+ 32    33    34   2   ma_ooo
+ 33    34    35   2   ma_ooo
+ 34    35    36   2   ma_ooo
+ 35    36    37   2   ma_ooo
+ 36    37    38   2   ma_ooo
+ 37    38    39   2   ma_ooo
+ 38    39    40   2   ma_ooo
+ 39    40    41   2   ma_ooo
+ 40    41    42   2   ma_ooo
+ 41    42    43   2   ma_ooo
+ 42    43    44   2   ma_ooo
+ 43    44    45   2   ma_ooo
+ 44    45    46   2   ma_ooo
+ 45    46    47   2   ma_ooo
+ 46    47    48   2   ma_ooo
+ 47    48    49   2   ma_ooo
+ 48    49    50   2   ma_ooo
+ 49    50    51   2   ma_ooo
+ 50    51    52   2   ma_ooo
+ 51    52    53   2   ma_ooo
+ 52    53    54   2   ma_ooo
+ 53    54    55   2   ma_ooo
+ 54    55    56   2   ma_ooo
+ 55    56    57   2   ma_ooo
+ 56    57    58   2   ma_ooo
+ 57    58    59   2   ma_ooo
+ 58    59    60   2   ma_ooo
+ 59    60    61   2   ma_ooo
+ 60    61    62   2   ma_ooo
+ 61    62    63   2   ma_ooo
+ 62    63    64   2   ma_ooo
+ 63    64    65   2   ma_ooo
+ 64    65    66   2   ma_ooo
+ 65    66    67   2   ma_ooo
+ 66    67    68   2   ma_ooo
+ 67    68    69   2   ma_ooo
+ 68    69    70   2   ma_ooo
+ 69    70    71   2   ma_ooo
+ 70    71    72   2   ma_ooo
+ 71    72    73   2   ma_ooo
+ 72    73    74   2   ma_ooo
+ 73    74    75   2   ma_ooo
+ 74    75    76   2   ma_ooo
+ 75    76    77   2   ma_ooo
+ 76    77    78   2   ma_ooo
+ 77    78    79   2   ma_ooo
+ 78    79    80   2   ma_ooo
+ 79    80    81   2   ma_ooo
+ 80    81    82   2   ma_ooo
+ 81    82    83   2   ma_ooo
+ 82    83    84   2   ma_ooo
+ 83    84    85   2   ma_ooo
+ 84    85    86   2   ma_ooo
+ 85    86    87   2   ma_ooo
+ 86    87    88   2   ma_ooo
+ 87    88    89   2   ma_ooo
+ 88    89    90   2   ma_ooo
+ 89    90    91   2   ma_ooo
+ 90    91    92   2   ma_ooo
+ 91    92    93   2   ma_ooo
+ 92    93    94   2   ma_ooo
+ 93    94    95   2   ma_ooo
+ 94    95    96   2   ma_ooo
+ 95    96    97   2   ma_ooo
+ 96    97    98   2   ma_ooo
+ 97    98    99   2   ma_ooo
+ 98    99   100   2   ma_ooo
+ 99   100   101   2   ma_ooo
+100   101   102   2   ma_ooo
+101   102   103   2   ma_ooo
+102   103   104   2   ma_ooo
+103   104   105   2   ma_ooo
+104   105   106   2   ma_ooo
+105   106   107   2   ma_ooo
+106   107   108   2   ma_ooo
+107   108   109   2   ma_ooo
+108   109   110   2   ma_ooo
+109   110   111   2   ma_ooo
+110   111   112   2   ma_ooo
+111   112   113   2   ma_ooo
+112   113   114   2   ma_ooo
+113   114   115   2   ma_ooo
+114   115   116   2   ma_ooo
+115   116   117   2   ma_ooo
+116   117   118   2   ma_ooo
+117   118   119   2   ma_ooo
+118   119   120   2   ma_ooo
+119   120   121   2   ma_ooo
+120   121   122   2   ma_ooo
+121   122   123   2   ma_ooo
+122   123   124   2   ma_ooo
+123   124   125   2   ma_ooo
+124   125   126   2   ma_ooo
+125   126   127   2   ma_ooo
+126   127   128   2   ma_ooo
+127   128   129   2   ma_ooo
+128   129   130   2   ma_ooo
+129   130   131   2   ma_ooo
+130   131   132   2   ma_ooo
+131   132   133   2   ma_ooo
+132   133   134   2   ma_ooo
+133   134   135   2   ma_ooo
+134   135   136   2   ma_ooo
+135   136   137   2   ma_ooo
+136   137   138   2   ma_ooo
+137   138   139   2   ma_ooo
+138   139   140   2   ma_ooo
+139   140   141   2   ma_ooo
+140   141   142   2   ma_ooo
+141   142   143   2   ma_ooo
+142   143   144   2   ma_ooo
+143   144   145   2   ma_ooo
+144   145   146   2   ma_ooo
+145   146   147   2   ma_ooo
+146   147   148   2   ma_ooo
+147   148   149   2   ma_ooo
+148   149   150   2   ma_ooo
+149   150   151   2   ma_ooo
+150   151   152   2   ma_ooo
+151   152   153   2   ma_ooo
+152   153   154   2   ma_ooo
+153   154   155   2   ma_ooo
+154   155   156   2   ma_ooo
+155   156   157   2   ma_ooo
+156   157   158   2   ma_ooo
+157   158   159   2   ma_ooo
+158   159   160   2   ma_ooo
+159   160   161   2   ma_ooo
+160   161   162   2   ma_ooo
+161   162   163   2   ma_ooo
+162   163   164   2   ma_ooo
+163   164   165   2   ma_ooo
+164   165   166   2   ma_ooo
+165   166   167   2   ma_ooo
+166   167   168   2   ma_ooo
+167   168   169   2   ma_ooo
+168   169   170   2   ma_ooo
+169   170   171   2   ma_ooo
+170   171   172   2   ma_ooo
+171   172   173   2   ma_ooo
+172   173   174   2   ma_ooo
+173   174   175   2   ma_ooo
+174   175   176   2   ma_ooo
+175   176   177   2   ma_ooo
+176   177   178   2   ma_ooo
+177   178   179   2   ma_ooo
+178   179   180   2   ma_ooo
+179   180   181   2   ma_ooo
+180   181   182   2   ma_ooo
+181   182   183   2   ma_ooo
+182   183   184   2   ma_coo
+183   184   185   2   ma_cco
+184   185   186   2   ma_ccc
