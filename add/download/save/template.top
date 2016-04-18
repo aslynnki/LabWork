@@ -1,0 +1,9 @@
+#include "ShihuDM.ff/ff.itp"
+#include "c12e8.itp"
+#include "hexadecane_DM.itp"
+
+
+[ system ]
+system name
+
+[ molecules ]
