@@ -1,0 +1,61 @@
+#define  mb_cc      0.480  1250.00
+#define  ma_ccc     180.0  35.0
+
+#define  mb_co      0.390  3000.00
+#define  ma_cco     180.0  20.0
+#define  ma_coo     180.0  20.0
+
+#define  mb_oo      0.330  16000.0
+#define  ma_ooo     150.0  80.0
+#define  di_re      0.0 0.0 0.60 60
+
+; C3E8
+; 0x44 = 2*3+1*8
+
+[ moleculetype ]
+; molname  nrexcl
+  44    1
+
+[ atoms ]
+; i type resnr residue atom cgnr charge
+  1 C1   1     44      C1   1    0.00000
+  2 C1   1     44      C2   2    0.00000
+  3 C1   1     44      C3   3    0.00000
+  4 EO   1     44      O4   4    0.00000
+  5 EO   1     44      O5   5    0.00000
+  6 EO   1     44      O6   6    0.00000
+  7 EO   1     44      O7   7    0.00000
+  8 EO   1     44      O8   8    0.00000
+  9 EO   1     44      O9   9    0.00000
+ 10 EO   1     44      O10  10   0.00000
+ 11 EO   1     44      O11  11   0.00000
+
+[ bonds ]
+; i  j  funct  alias
+  1  2  1      mb_cc
+  2  3  1      mb_cc
+  3  4  1      mb_co
+  4  5  1      mb_oo
+  5  6  1      mb_oo
+  6  7  1      mb_oo
+  7  8  1      mb_oo
+  8  9  1      mb_oo
+  9 10  1      mb_oo
+ 10 11  1      mb_oo
+  4  7  10     di_re
+  5  8  10     di_re
+  6  9  10     di_re
+  7 10  10     di_re
+  8 11  10     di_re
+
+[ angles ]
+; i  j  k  funct  alias
+  1  2  3  2      ma_ccc
+  2  3  4  2      ma_cco
+  3  4  5  2      ma_coo
+  4  5  6  2      ma_ooo
+  5  6  7  2      ma_ooo
+  6  7  8  2      ma_ooo
+  7  8  9  2      ma_ooo
+  8  9 10  2      ma_ooo
+  9 10 11  2      ma_ooo
